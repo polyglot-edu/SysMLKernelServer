@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SysMLKernelServer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SysMLKernelServer_jar</output-path>
+    <root id="archive" name="SysMLKernelServer.jar">
+      <element id="module-output" name="SysMLKernelServer" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/javax/jws/javax.jws-api/1.1/javax.jws-api-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.45/tomcat-embed-core-9.0.45.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.5/httpcore-4.4.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-jdk14/1.7.12/slf4j-jdk14-1.7.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-annotations-api/9.0.45/tomcat-annotations-api-9.0.45.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/briandilley/jsonrpc4j/jsonrpc4j/1.6/jsonrpc4j-1.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.6.7.5/jackson-databind-2.6.7.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore-nio/4.4.5/httpcore-nio-4.4.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/iharder/base64/2.3.9/base64-2.3.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar" path-in-jar="/" />
+      <element id="library" level="project" name="org.omg.sysml.interactive-0.13.1-SNAPSHOT-all" />
+    </root>
+  </artifact>
+</component>
