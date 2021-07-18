@@ -13,10 +13,10 @@ public class SysMLKernelImpl implements SysMLKernel {
 
     private ObjectMapper objectMapper;
 
-    public EvaluationResult eval(String content) {
+    public SysMLEvaluationResult eval(String content) {
         try {
             var sysMlResult = SysMLInteractive.getInstance().eval(content);
-            return new EvaluationResult(sysMlResult);
+            return new SysMLEvaluationResult(sysMlResult);
         } catch (Exception e) {
             e.printStackTrace(System.err);
         }

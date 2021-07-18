@@ -8,9 +8,14 @@ public class Main {
         SysMLInteractive.getInstance().setVerbose(false);
 
         // load sysml libraries
-        File file = new File("sysml/sysml.library");
-        String absolutePath = file.getAbsolutePath();
-        SysMLInteractive.getInstance().loadLibrary(absolutePath);
+        String lib;
+        var runningFile = new File(Main.class.getProtectionDomain().getCodeSource().getLocation().getPath());
+        if(runningFile.isFile()) {  // Run with JAR file
+            lib = (new File(runningFile.getParentFile().getAbsolutePath() + "/sysml.library")).getAbsolutePath();
+        } else { // Run with IDE
+            lib = (new File("sysml.library")).getAbsolutePath();
+        }
+        SysMLInteractive.getInstance().loadLibrary(lib);
 
         // jsonRpc server loop
         while(true) {

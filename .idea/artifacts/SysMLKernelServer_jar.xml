@@ -16,7 +16,7 @@
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/iharder/base64/2.3.9/base64-2.3.9.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar" path-in-jar="/" />
-      <element id="library" level="project" name="org.omg.sysml.interactive-0.13.1-SNAPSHOT-all" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/org.omg.sysml.interactive-0.13.1-SNAPSHOT-all.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="out">
+    <output-path>$PROJECT_DIR$/out/artifacts/out</output-path>
+    <root id="root">
+      <element id="artifact" artifact-name="SysMLKernelServer:jar" />
+      <element id="directory" name="sysml.library">
+        <element id="dir-copy" path="$PROJECT_DIR$/sysml.library" />
+      </element>
+    </root>
+  </artifact>
+</component>
