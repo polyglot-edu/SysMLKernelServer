@@ -26,6 +26,8 @@ public class SysMLElement {
                 return ((AttributeUsage) element).getAttributeDefinition().stream().map(attribute -> attribute.getName()).findFirst().orElse(null);
             case PART_USAGE:
                 return ((PartUsage) element).getPartDefinition().stream().map(attribute -> attribute.getName()).findFirst().orElse(null);
+            case PORT_USAGE:
+                return ((PortUsage) element).getPortDefinition().stream().map(attribute -> attribute.getName()).findFirst().orElse(null);
             case ITEM_USAGE:
             case ITEM_USAGE_IN:
             case ITEM_USAGE_OUT:
