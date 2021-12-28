@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="org.omg.sysml.interactive-0.13.1-SNAPSHOT-all">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/jars/org.omg.sysml.interactive-0.13.1-SNAPSHOT-all.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
